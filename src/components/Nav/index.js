@@ -11,6 +11,7 @@ const Nav = styled.nav`
         justify-content: center;
         padding: 0;
         width: 100%;
+        font-family: 'Dancing Script', cursive;
         li {
             display: inline;
             margin-right: 20px;

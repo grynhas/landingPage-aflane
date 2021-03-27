@@ -2,13 +2,13 @@ import styled from 'styled-components'
 
 const Header = styled.header`
     height: auto;
-    max-height: 500px;
+    max-height: 400px;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 10px 0 10px;
+    padding: 10px 10px 0 10px;
 `
 
 export default Header;
