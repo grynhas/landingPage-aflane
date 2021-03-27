@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 const Header = styled.header`
-    background: ${({ theme }) => theme.colors.primary};
-    height: 30vh;
-    width: 100%;
+    height: auto;
+    max-height: 500px;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 10px 0 10px;
 `
 
 export default Header;
