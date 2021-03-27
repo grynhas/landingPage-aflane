@@ -1,0 +1,13 @@
+{
+    "tile": "Aflane Negrão",
+    "theme":{
+        "colors": {
+            "primary": "#71c4c4",
+            "secondary": "#72b2a9",
+            "tertiary": "#ce5772",
+            "salmon": "#deaa9c",
+            "blazer": "#fffbe6",
+            "grey": "#686868"
+        }
+    }
+}
