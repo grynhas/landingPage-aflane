@@ -1,31 +1,16 @@
-import styled from 'styled-components'
+import { Menu } from './styles'
 
-const Nav = styled.nav`
-    display: flex;
-    height: 50px;
-    width: 100%;
-    flex-wrap: wrap;
-    ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        width: 100%;
-        font-family: 'Dancing Script', cursive;
-        li {
-            display: inline;
-            margin-right: 20px;
-            cursor: pointer;
-            font-size: 20px;
-            color: ${({ theme }) => theme.colors.tertiary};
-        }
-        li:hover {
-            color: ${({ theme }) => theme.colors.primary};
-        }
-        li:last-child {
-            margin-right: 0px;;
-        }
-    }
-`
+function Nav (){
+    return (
+        <Menu>
+            <ul>
+                <li>Home</li>
+                <li>Quem sou</li>
+                <li>Contato</li>
+            </ul>
+        </Menu>
+    )
 
-export default Nav;
+} 
+
+export default Nav ;

@@ -1,9 +1,10 @@
 import styled from 'styled-components'
-import logopadrao from '../../../public/img/selo.png' 
-
 
 const LogoDiv = styled.div`
-  background-image: url(${logopadrao});
+  background-image: url('/img/selo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height:400px;
   width:400px;
 `;
