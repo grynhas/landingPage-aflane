@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Menu = styled.nav`
+    /* background-color: ${(props)=> props.corDeFundo ? 'red' : 'BLUE'}; */
     display: flex;
     height: 50px;
     width: 100%;
@@ -16,7 +17,7 @@ export const Menu = styled.nav`
             display: inline;
             margin-right: 20px;
             cursor: pointer;
-            font-size: 20px;
+            font-size: 25px;
             color: ${({ theme }) => theme.colors.tertiary};
         }
         li:hover {
