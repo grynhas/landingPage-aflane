@@ -14,6 +14,16 @@ export const Section = styled.section`
             height: 500px;
         }
     }
+    @media(max-width: 768px){
+        flex-direction: column-reverse;
+            figure {
+            margin-bottom: -5px;
+            img{
+                width: 200px;
+                height: 200px;
+            }
+    }
+  }
 `
 
 export const Info = styled.div`
@@ -22,4 +32,7 @@ export const Info = styled.div`
     align-items: center;
     text-align: center;
     font-size: 50px;
+    @media(max-width: 768px){
+        font-size:20px;
+    }
 `;
