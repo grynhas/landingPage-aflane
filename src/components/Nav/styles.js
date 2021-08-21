@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Menu = styled.nav`
     /* background-color: ${(props)=> props.corDeFundo ? 'red' : 'BLUE'}; */
     display: flex;
-    height: 50px;
     width: 100%;
     flex-wrap: wrap;
+    background-color: ${({ theme }) => theme.colors.primary};;
     ul {
         list-style: none;
         display: flex;
@@ -17,14 +17,28 @@ export const Menu = styled.nav`
             display: inline;
             margin-right: 20px;
             cursor: pointer;
-            font-size: 25px;
-            color: ${({ theme }) => theme.colors.tertiary};
+            font-size: 30px;
+            color: #000;
+
         }
+
         li:hover {
-            color: ${({ theme }) => theme.colors.primary};
+            color: ${({ theme }) => theme.colors.blazer};
         }
         li:last-child {
-            margin-right: 0px;;
+            margin-right: 0px;
         }
     }
+    @media(max-width: 768px){
+        ul li {
+            font-size: 25px;
+        }
+    }
+`
+export const Header = styled.header`
+    /* background-color: ${(props)=> props.corDeFundo ? 'red' : 'BLUE'}; */
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin-top: -60px;
 `

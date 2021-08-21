@@ -6,11 +6,11 @@ const LogoDiv = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
+  /* position: relative; */
   height: 250px;
   width:500px;
   @media(max-width: 768px){
-    height: 75px;
+    height: 200px;
     width: 300px;
   }
 `;

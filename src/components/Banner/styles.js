@@ -7,20 +7,20 @@ export const Section = styled.section`
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    background-color: ${({ theme }) => theme.colors.blaze};
+    margin-top: 60px;
     figure {
-        margin-bottom: -5px;
+        margin-bottom: 10px;
         img{
-            width: 500px;
-            height: 500px;
+            height: 700px;
         }
     }
     @media(max-width: 768px){
-        flex-direction: column-reverse;
+        flex-direction: column;
             figure {
-            margin-bottom: -5px;
+            margin-bottom: 5px;
             img{
-                width: 200px;
-                height: 200px;
+                height: 250px;
             }
     }
   }
@@ -28,6 +28,7 @@ export const Section = styled.section`
 
 export const Info = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -36,3 +37,31 @@ export const Info = styled.div`
         font-size:20px;
     }
 `;
+export const Contato = styled.div`
+    width: 400px;
+    height: 55px;
+    background-color: ${({ theme }) => theme.colors.tertiary};
+    font-size: 30px;
+    margin: 15px 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    :hover {
+        background-color: ${({ theme }) => theme.colors.primary};
+    }
+    svg {
+        margin: 0 10px;
+    }
+    @media(max-width: 768px){
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+    }
+`
+export const Link = styled.a`
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+`

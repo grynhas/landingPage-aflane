@@ -31,17 +31,14 @@ const BLOG_QUERY = `query {
 function Blog({data}) {
     return(   
         <>
-            <Header>
-                <Logo />
-            </Header>
-            <Nav />
-            <h1>blog</h1>
-            <BlogMain>
-            {data.allPosts.map((post, index)=>{
-              return <Post key={index} dados={post} />
-            })}
-            </BlogMain>
-            {console.log("aqui tem data",data.allPosts)}
+          <Nav />
+          <h1>blog</h1>
+          <BlogMain>
+          {data.allPosts.map((post, index)=>{
+            return <Post key={index} dados={post} />
+          })}
+          </BlogMain>
+          {console.log("aqui tem data",data.allPosts)}
         </>
     )
 }

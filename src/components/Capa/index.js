@@ -1,19 +1,18 @@
 import styled from 'styled-components'
 
-const LogoDiv = styled.div`
-  display: flex;
-  background-image: url('/img/logoPadrao.png');
+const CapaDiv = styled.div`
+  background-image: url('/img/capa.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  height: 250px;
-  width:500px;
+  height: 312px;
+  width: 100%;
   @media(max-width: 768px){
-    height: 75px;
-    width: 300px;
+    height: 200px;
+    width: 100%;
   }
 `;
 
 
-export default LogoDiv;
+export default CapaDiv;
