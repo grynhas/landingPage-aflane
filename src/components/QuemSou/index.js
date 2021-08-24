@@ -1,12 +1,14 @@
-import { Section, Info, Figure } from './styles'
+import { Section, Info, Title } from './styles'
 
 function QuemSou (){
     return (
         <Section>
             <Info>
-                <span>
-                    Sobre mim
-                </span>
+                <Title>
+                    <span>
+                        Sobre mim
+                    </span>
+                </Title>
                 <p>
                 Sou psicóloga, graduada pela Universidade de Brasília, 
                 possuo formação em Terapias Comportamentais Contextuais 

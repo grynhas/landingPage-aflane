@@ -10,10 +10,7 @@ export const Section = styled.section`
     background-color: ${({ theme }) => theme.colors.blaze};
     margin-top: 60px;
     figure {
-        margin-bottom: 10px;
-        img{
-            height: 700px;
-        }
+
     }
     @media(max-width: 768px){
         flex-direction: column;
@@ -25,6 +22,29 @@ export const Section = styled.section`
     }
   }
 `
+export const FigureMobile = styled.figure`
+    display: none;
+    @media(max-width: 768px){
+        display: initial;
+    margin: 5px;
+        img{
+        border-radius: 50%;
+        width: 250px;
+        height: auto;
+        background-color: crimson;
+        }
+    }
+`;
+
+export const FigureDesk = styled.figure`
+    margin-bottom: 10px;
+    img{
+        height: 700px;
+    }
+    @media(max-width: 768px){
+        display: none;
+    }
+`;
 
 export const Info = styled.div`
     display: flex;

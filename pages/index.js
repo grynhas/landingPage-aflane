@@ -1,6 +1,6 @@
 import Nav from '../src/components/Nav'
 import Submit from '../src/components/Submit'
-import Temp from '../src/components/Temp'
+import Banner from '../src/components/Banner'
 import QuemSou from '../src/components/QuemSou'
 import TerapiaOn from '../src/components/TerapiaOn'
 import Frase from '../src/components/Frase'
@@ -12,8 +12,8 @@ function Home() {
     return(   
         <>
             <Nav />
-            <Temp />
-            {/* <Frase />
+            <Banner />
+            <Frase />
             <QuemSou />
             <Cards>
                 <Card 
@@ -48,7 +48,7 @@ function Home() {
                 />
             </Cards>
             <TerapiaOn />
-            <Submit /> */}
+            <Submit />
         </>
     )
 }
