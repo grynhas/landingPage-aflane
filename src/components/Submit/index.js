@@ -1,17 +1,17 @@
 import { Range, Info } from './styles'
 
-function Nav (){
+function Form (){
     return (
         <Range>
             <Info>
                 <span>
-                    Lorem ipsum dolor sit amet
-                    Pariatur, consequatur ullam!
+                 Agende sua consulta.
                 </span>
             </Info>
             <form>
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="email" />
+                <input type="fone" placeholder="(00)9000000" />
                 <button type="submit" value="Submit"> Enviar </button>
             </form>
         </Range>
@@ -19,4 +19,4 @@ function Nav (){
 
 } 
 
-export default Nav ;
+export default Form ;

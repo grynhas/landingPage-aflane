@@ -12,7 +12,9 @@ function Home() {
     return(   
         <>
             <Nav />
-            <Banner />
+            <Banner> 
+                <Submit />
+            </Banner>
             <Frase />
             <QuemSou />
             <Cards>
@@ -48,7 +50,6 @@ function Home() {
                 />
             </Cards>
             <TerapiaOn />
-            <Submit />
         </>
     )
 }

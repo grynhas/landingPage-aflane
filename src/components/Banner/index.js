@@ -3,7 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 import Logo from '../Logo';
 
-function Banner (){
+function Banner ({children}){
     return (
         <Section>
             <figure>
@@ -11,12 +11,13 @@ function Banner (){
             </figure>
             <Info>
                 <Logo />
-                <Contato>
+                {/* <Contato>
                     <Link href="https://api.whatsapp.com/send?phone=5561984539409" >
                         Fale Comigo
                     </Link>
                     <FaWhatsapp />
-                </Contato>
+                </Contato> */}
+                {children}
             </Info>
         </Section>
     )
