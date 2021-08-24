@@ -7,17 +7,17 @@ function Nav (){
             <Menu>
                 <ul>
                     <Link href="/">
-                    <li>Home</li>
+                        <li>Home</li>
+                    </Link>
+                    {/* <Link href="/">
+                        <li>Quem sou</li>
                     </Link>
                     <Link href="/">
-                    <li>Quem sou</li>
-                    </Link>
-                    <Link href="/">
-                    <li>Contato</li>
+                        <li>Contato</li>
                     </Link>
                     <Link href="/blog">
-                    <li>Blog</li>
-                    </Link>
+                        <li>Blog</li>
+                    </Link> */}
                 </ul>
             </Menu>
         </Header>
