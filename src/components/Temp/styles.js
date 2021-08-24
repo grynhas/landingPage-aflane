@@ -10,41 +10,29 @@ export const Section = styled.section`
     background-color: ${({ theme }) => theme.colors.blaze};
     margin-top: 60px;
     figure {
-
+        margin: 5px;
+        margin-top: 20px;
+        img{
+            border-radius: 50%;
+            width: 500px;
+            height: auto;
+            background-color: crimson;
+        }
     }
     @media(max-width: 768px){
         flex-direction: column;
             figure {
-            margin-bottom: 5px;
+            margin: 5px;
+            
             img{
-                height: 250px;
+                border-radius: 50%;
+                width: 250px;
+                height: auto;
+                background-color: crimson;
             }
     }
   }
 `
-export const FigureMobile = styled.figure`
-    display: none;
-    @media(max-width: 768px){
-        display: initial;
-    margin: 5px;
-        img{
-        border-radius: 50%;
-        width: 250px;
-        height: auto;
-        background-color: crimson;
-        }
-    }
-`;
-
-export const FigureDesk = styled.figure`
-    margin-bottom: 10px;
-    img{
-        height: 700px;
-    }
-    @media(max-width: 768px){
-        display: none;
-    }
-`;
 
 export const Info = styled.div`
     display: flex;

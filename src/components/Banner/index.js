@@ -1,4 +1,4 @@
-import { Section, Info, Contato, Link } from './styles'
+import { Section, Info, Contato, Link, FigureDesk, FigureMobile } from './styles'
 import { FaWhatsapp } from 'react-icons/fa';
 
 import Logo from '../Logo';
@@ -6,9 +6,12 @@ import Logo from '../Logo';
 function Banner ({children}){
     return (
         <Section>
-            <figure>
+            <FigureDesk>
                 <img src="/img/aflane_negrao_capa.png" alt="Aflane Negrão" />
-            </figure>
+            </FigureDesk>
+            <FigureMobile>
+                <img src="/img/aflane_negrao.jpg" alt="Aflane Negão" />
+            </FigureMobile>
             <Info>
                 <Logo />
                 {/* <Contato>

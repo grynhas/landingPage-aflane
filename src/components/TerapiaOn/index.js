@@ -1,4 +1,4 @@
-import { Section, Info } from './styles'
+import { Section, Info, Title } from './styles'
 
 function TerapiaOn (){
     return (
@@ -7,9 +7,11 @@ function TerapiaOn (){
                 <img src="/img/terapia_online.jpg" alt="terapia online" />
             </figure>
             <Info>
-                <span>
-                    Terapia Online
-                </span>
+                <Title>
+                    <span>
+                        Terapia Online
+                    </span>
+                </Title>
                 <p>
                     A psicoterapia On-line tem a mesma eficácia que o 
                     atendimento presencial e pode ser realizada no conforto 

@@ -17,18 +17,7 @@ export const Info = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    div {
-        font-size: 35px;
-        padding: 20px 50px;
-        margin: 20px;
-        border-radius: 30px;
-        background-color: ${({ theme }) => theme.colors.tertiary};
-        color: ${({ theme }) => theme.colors.blazer};
-        margin: 10px;
-        font-family: 'Dancing Script', cursive;
-        display: flex;
-        align-items: center;
-    }
+
     p {
         font-size: 20px;
         margin: 10px 20px;
@@ -41,4 +30,25 @@ export const Info = styled.div`
         flex-direction: column;
         margin: 5px 10px;
     }
+`;
+export const Title = styled.div`
+    background-image: url('/img/titleImg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: auto;
+    span {
+        font-size: 40px;
+        padding: 25px 50px;
+        margin: 20px;
+        border-radius: 30px;
+        color: ${({ theme }) => theme.colors.blazer}; ;
+        margin: 10px;
+        font-family: 'Dancing Script', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
 `;

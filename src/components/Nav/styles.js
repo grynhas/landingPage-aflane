@@ -5,7 +5,8 @@ export const Menu = styled.nav`
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    background-color: ${({ theme }) => theme.colors.primary};;
+    background-color: ${({ theme }) => theme.colors.primary};
+    z-index: 5;
     ul {
         list-style: none;
         display: flex;
@@ -41,4 +42,5 @@ export const Header = styled.header`
     width: 100%;
     height: auto;
     margin-top: -60px;
+    z-index: 999;
 `

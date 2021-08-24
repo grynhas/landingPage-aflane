@@ -1,12 +1,14 @@
-import { Section, Info } from './styles'
+import { Section, Info, Title } from './styles'
 
 function Cards ({children}){
     return (
         <Section>
             <Info>
-                <div>
-                    Tratamentos
-                </div>
+                <Title>
+                    <span>
+                        Tratamentos
+                    </span>
+                </Title>
             </Info>
             <Info>
                 {children}
